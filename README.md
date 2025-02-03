@@ -19,7 +19,7 @@ taking a photo outside of my office window to catch the changing of the seasons.
   - Navigate to: `https://github.com/settings/keys`
   - Click `New SSH key` and follow the instructions
 - on the pi:
-  - run `ssh -T git@github.com`
+  - run `ssh -T git@github.com` and you will get a confirmation on success
 
 ## setting up the project
 
