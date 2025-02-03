@@ -17,6 +17,6 @@ cam.stop_preview()
 
 r = git.Repo()
 r.git.pull()
-r.git.add(u=True)
-r.git.commit(f"-m'{today} commit'")
+r.git.add(A=True)
+r.git.commit("-m", f"{today} commit")
 r.git.push()
