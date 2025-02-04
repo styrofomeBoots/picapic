@@ -34,4 +34,4 @@ taking a photo outside of my office window to catch the changing of the seasons.
 
 - ensure cron.sh is executable by running `chmod +x path/to/cron.sh`
 - run `crontab -e`
-- setup the cron by adding `30 6 * * * cd /home/path/to/project/directory && /bin/bash cron.sh >> cron.log 2>&1`
+- setup the cron by adding `55 6 * * * cd /home/path/to/project/ && /home/path/to/project/cron.sh >> /home/path/to/project/cron.log 2>&1`
