@@ -27,7 +27,6 @@ try:
 except Exception as e:
 	throw_error(f"Image error: {e}")
 
-sys.exit(1)
 try:
 	r = git.Repo(SCRIPT_DIR)
 	r.git.pull()
