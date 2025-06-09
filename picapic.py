@@ -34,6 +34,7 @@ def take_photo(script_dir, today):
 def commit_changes_if_friday(script_dir, today):
 	if today.weekday() != 4:
 		logging.info("Today is not Friday; skipping Git commit.")
+		return
 
 	try:
 		repo = git.Repo(script_dir)
